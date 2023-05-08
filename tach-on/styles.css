@@ -1,0 +1,379 @@
+
+        #heder
+        {
+            position: sticky;
+            width: auto;
+            height: 120px;
+            background-color: #444444;
+        }
+        #imag
+        {
+            float: left;
+            padding-left: 30px;
+            padding-top: 8px;
+        }
+        #imag img
+        {
+            height: 90px;
+            width: 250px;
+        }
+        #for
+        {
+            float: right;
+            padding-top: 50px;
+            word-spacing: 18px;
+            padding-right: 10px;
+        }
+       #for a:link, a:visited 
+        {
+          background-color: #f44336;
+          color: white;
+          text-align: right;
+          padding: 20px 25px;
+          text-decoration: none;
+        }
+       #for a:hover, a:active
+         {
+            background-color: #8B0000;
+         }
+         #let
+         {
+             float: left;
+             padding-left: 20px;
+             padding-top: 20px;
+         }
+        #center
+        {
+            margin-top: 3px;
+            width: auto;
+            height: 500px;
+            background-image: url("Temp-1250x500.jpg");
+        } 
+        #led
+        {
+            float:left;
+            padding-left: 500px;
+        }
+        #banner 
+        {
+            padding-top: 4px;
+            padding-left: 70px;
+        }
+        #banner a:link, a:visited 
+        {
+          background-color: #f44336;
+          color: white;
+          text-align: right;
+          padding: 20px 25px;
+          text-decoration: none;
+        }
+        #banner a:active,a:hover
+        {
+            background-color: #8B0000;
+        }
+        #sub
+        {
+            display:block;
+        }
+        #frame
+        {
+            float: left;
+            padding-left: 40px;
+        }
+       #frame iframe
+        {
+            border:2px;
+            border-radius: 0px;
+            padding-top: 200px;
+            width: 480px;
+            height: 280px;
+        }
+        #link
+        {
+            margin-top: 3px;
+            background-color: #444444;
+            width: auto;
+            height: 530px;
+        }
+        #load
+        {
+          float: left;
+          padding-left: 150px;
+          padding-top: 30px;
+          word-spacing: 20px;
+          padding-bottom: 20px;
+          
+        }
+        #heat h1
+        {
+            float: left;
+            padding-top: 5px;
+            padding-left: 550px;
+            text-align: center;
+            color: #8B0000;
+        }
+        #load
+        {
+            padding-bottom: 20px;
+        }
+        #load a:hover a:active
+        { 
+            background-color: #f44336;
+        }
+        #load img
+        {
+            border: 2px;
+            border-radius: 5px;
+            width: 280px;
+            height: 150px;
+
+        }
+        #rrr
+        {
+            float: left;
+            padding-top: 20px;
+            padding-left: 150px;
+            word-spacing: 20px;
+        }
+        #rrr img
+        {
+            border: 2px;
+            border-radius: 5px;
+            width:280px;
+            height:150px;
+        }
+        #contact
+        {
+            width:auto;
+            height:350px;
+            background-color:#fdfdfd ;
+            
+        }
+        #free
+        {
+            text-align: center;
+            padding-top: 2px;
+        }
+        #log
+        {
+            position: relative;
+            width:200px;
+            height:200px;
+            margin-left:250px;
+        }
+        #log img
+        {
+            float:left;
+            border: 2px;
+            border-radius: 5px;
+            width:200px;
+            height: 150px;
+            padding-left: 0px;
+        }
+        #over
+        {
+            position: absolute;
+            top: 0%;
+            left:0%;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: 1s ease;
+            background:white;
+            color: #8B0000;
+            text-align: center;
+            font-size: medium;
+            font-style: oblique;
+            text-decoration: wavy;
+        }
+        #log:hover #over
+        {
+            opacity: 1;
+        }
+        #cog
+        {
+            position: relative;
+            width:200px;
+            height:200px;
+            margin-left:550px;
+            margin-top:-200px;
+            
+        }
+        #cog img
+        {
+            float:left;
+            border: 2px;
+            border-radius: 5px;
+            width:200px;
+            height: 150px;
+            padding-left: 0px;
+        }
+        #pover
+        {
+            position: absolute;
+            top: 0%;
+            left:0%;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: 1s ease;
+            background:white;
+            color: #8B0000;
+            text-align: center;
+            font-size: medium;
+            font-style: oblique;
+            text-decoration: wavy;
+        }
+        #cog:hover #pover
+        {
+            opacity: 1;
+        }
+        #fog
+        {
+            position: relative;
+            width:200px;
+            height:200px;
+            margin-left:850px;
+            margin-top:-200px;
+            
+        }
+        #fog img
+        {
+            border: 2px;
+            border-radius: 5px;
+            width:200px;
+            height: 150px;
+            padding-left: 0px;
+        }
+        #tover
+        {
+            position: absolute;
+            top: 0%;
+            left:0%;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: 1s ease;
+            background:white;
+            color: #8B0000;
+            text-align: center;
+            font-size: medium;
+            font-style: oblique;
+            text-decoration: wavy;
+        }
+        #fog:hover #tover
+        {
+            opacity: 1;
+        }
+        #random
+        {
+            padding-top: 2px;
+            width:auto;
+            height:385px;
+            background-color: #444444;
+        }
+        #random ul{
+            list-style: none;
+        }
+        #ran
+        {
+            text-align: center;
+        }
+        #and
+        {
+            position:absolute;
+            border-color: black;
+            width:350px;
+            height: 250px;
+            margin-left: 100px;
+        }
+        #and h4
+        {
+            text-align: center;
+            font-size: xx-large;
+        }
+        #and li
+        {
+          text-align: center;
+          font-size: large;
+          line-height: 35px;
+          font-family: Verdana, Tahoma, sans-serif ;
+          padding-right: 50px;
+        }
+        #and a:link, a:visited 
+        {
+          color: black;
+          text-align: right;
+          text-decoration: none;
+        }
+        #and a:active,a:hover
+        {
+            color:grey;
+            background-color: #f44336;
+        }
+        #an
+        {
+            position: absolute;
+            width:350px;
+            height:250px;
+            margin-left: 500px;
+        }  
+        #an h4
+        {
+            text-align: center;
+            font-size: xx-large;
+        }
+        #an li
+        {
+          text-align: center;
+          font-size: large;
+          line-height: 35px;
+          font-family: Verdana, Tahoma, sans-serif ;
+          padding-right: 50px;
+        }
+        #an a:link, a:visited 
+        {
+          color: black;
+          text-align: right;
+          text-decoration: none;
+        }
+        #an a:active,a:hover
+        {
+            color:grey;
+            background-color: #f44336;
+        }
+        #social
+        {
+        padding-top: 8px;    
+        position: relative;
+        height:250px;
+        width:350px; 
+        margin-left: 900px; 
+        word-spacing: 15px;
+        font-size:xx-large;
+     }
+     #social h4
+     {
+        text-align: center;
+     }
+     #social a:link, a:visited 
+      {
+          color: black;
+          text-align: right;
+          text-decoration: none;
+        }
+     #social a:active,a:hover
+        {
+            background-color:#f44336;
+            padding: 5px 5px;
+        }
+    #demo
+    {
+        margin-top: 20px;
+        color: aliceblue;
+        background-color:black;
+        text-align: center;
+        font-size: larger;
+        font-family:fantasy ;
+    } 
+      
