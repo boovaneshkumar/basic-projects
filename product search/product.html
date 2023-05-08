@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>Product Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="container">
+        <div class="search-container">
+            <form>
+              <input type="text" placeholder="Search.." onkeyup="search()" id="search-item" name="search" style="width: 250px; height: 30px; outline: none; font-size: large;">
+              <button type="submit"style="width: 50px; height: 30px;" ><i class="fa fa-search"></i></button>
+            </form>
+            <div class="product-list" id="product-list">
+                <div class="item">
+                <span class="food">
+                    <img src="shawarma.jpg">
+                  <h1>Shawarma</h1>
+                  <p style=" margin-left:-30px;"><button>ORDER</button></p>
+                </span>
+                </div>
+                <div class="item">
+                    <span class="food">
+                   <img src="download.jpg">
+                   <h1>Burger</h1>
+                   <p><button>ORDER</button></p>
+                    </span>
+                </div>
+                <div class="item">
+                <span class="food">
+                  <img src="chicken.png">
+                  <h1>Grilled-Chicken</h1>
+                  <p><button>ORDER</button></p>
+                </span>
+                </div>
+                <div class="item">
+                <span class="food">
+                 <img src="nachos.png">
+                 <h1>Nachos</h1>
+                 <p><button>ORDER</button></p>
+                </span>
+                </div>
+                <div class="item">
+                <span class="food">
+                    <img src="Pizza-Slice-PNG-Transparent-Image.png">
+                    <h1>Pizza</h1>
+                    <p><button>ORDER</button></p>
+                </span>
+                </div>
+                <div class="item">
+                <span class="food">
+                    <img src="fries.jpg">
+                    <h1>French Fries</h1>
+                    <p><button>ORDER</button></p>
+                </span>
+                </div>
+                <div class="item">
+                <span class="food">
+                    <img src="parotta.jpg">
+                    <h1>Parotta</h1>
+                    <p><button>ORDER</button></p>
+                </span>
+                </div>
+                <div class="item">
+                <span class="food">
+                    <img src="parotta.jpg">
+                    <h1>Kothu Parotta</h1>
+                    <p><button>ORDER</button></p>
+                </span>
+                </div>
+                
+            </div>
+    </section>
+    <script>
+        const Search=() =>{
+    const searchbox= document.getElementById("search-item").Value.toUpperCase();
+    const storeitems= document.getElementById("product-list")
+    const product= document.querySelectorAll(".food")
+    const pname= storeitems.getElementsByTagName("h1")
+
+    for (var i=0;i<pname.length; i++)
+    {
+        let match = product[i].getElementsByTagName('h1')[0];
+        
+        if (match)
+        {
+           let textvalue = match.textContent || match.innerHTML
+           if (textValue.toUpperCase.indexof(searchbox)>-1)
+            {
+                product[i].style.display="";
+            }
+            else
+            {
+                product[i].style.display="None"; 
+            }
+        }
+    }
+}
+    </script>
+</body>
