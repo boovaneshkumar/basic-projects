@@ -1,0 +1,105 @@
+<!Doctype html>
+<head>
+    <title>
+        Form Page 
+    </title>
+    <style>
+        #main
+        {
+            float:justify;
+            margin-left:0px;
+            border:0px solid #16efce;
+            margin-bottom:20px;
+            padding:20px 20px 20px 20px;
+            /*text-align:center;
+            background-color:  #16efce;*/
+        }
+        #ftxt
+        {
+            padding:20px 20px 5px 20px;
+        }
+        #fdob
+        {
+            padding:20px 20px 0px 20px;
+        }
+        #hd
+        {
+            float:left;
+            margin-left:100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main" id="main">
+        <div class='con'>
+            <span id="hd"> User Form </span>
+            <form action="#" method="post" enctype="text/plain">
+                <div class='ftxt' id="ftxt">
+                    <label> First Name </label>
+                    <input type="text" name="fnm" id="fnm" placeholder="name" required>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Last Name </label>
+                    <input type="text" name="lnm" id="lnm" required>
+                </div>
+                <div class='fdob' id="fdob">
+                    <label> Date of Birth </label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Age </label>
+                    <input type="number" name="age" id="age" required>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Email </label>
+                    <input type="email" name="emaill" id="email" required>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Password </label>
+                    <input type="password" name="pwd" id="pwd" required>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Mobile Number </label>
+                    <input type="tel" name="num" id="num" required>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Country </label>
+                    <select>
+                        <option>Select Country</option>
+                        <option>India</option>
+                        <option>America</option>
+                    </select>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> State </label>
+                    <select required>
+                        <option>Select State</option>
+                        <option value="andhra">Andhra Pradesh</option>
+                        <option value="Bihar">Bihar</option>
+                    </select>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> District </label>
+                    <select>
+                        <option>Select District</option>
+                    </select>
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Gender </label>
+                    <input type="radio" value="male" name="male" id="male"> Male
+                    <input type="radio" value="female" name="female" id="female"> Female
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <label> Qualification </label>
+                    <input type="checkbox" value="UG" name="ug" id="ug"> UG
+                    <input type="checkbox" value="PG" name="pg" id="pg"> PG
+                </div>
+                <div class='ftxt' id="ftxt">
+                    <input type="submit" value="Submit" name="sub" id="sub"> 
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<style>
+h1
+{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+</style>
+<body style="background-color: #73AD21">
+    <h1>count</h1>
+    <h1 id="cunt">0</h1>
+    <button onclick="increment()">clickme</button>
+    <button onclick="save()">save</button>
+    <button onclick="reset()">reset</button>
+    <p id="display">previous entries:</p>
+</body>
+<script>
+    let count=document.getElementById("cunt")
+    let dis=document.getElementById("display")
+    let lp=0
+    function increment()
+    {
+        lp=lp+1
+        count.innerText=lp
+    }
+    function save()
+    {
+        let cd= lp + " - " 
+        dis.textContent += cd
+        console.log(lp)
+    }
+    function reset()
+    {
+        count.innerText=0
+        lp=0
+    }
+  let message= "hi"
+  let name= "bk"
+  let gerth= message+" "+name
+  console.log(gerth)
+</script>

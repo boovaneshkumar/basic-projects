@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<script>
+function bookDetails(bookName,bookAuthor,bookType) {
+    this.name = bookName;
+    this.author = bookAuthor;
+    this.type = bookType;
+}
+
+let libraryForm = document.getElementById("bookForm");
+libraryForm.addEventListener("submit", libraryBooksDetails);
+
+function libraryBooksDetails(e,index) {
+    
+    e.preventDefault();
+    console.log("The book details have been submitted");
+    let bookName = document.getElementById("bookName").value;
+    let bookAuthor = document.getElementById("author").value;
+    let bookType;
+    let fiction = document.getElementById("Fiction"); 
+    let programming = document.getElementById("ComputerProgramming");
+    let personal = document.getElementById("PersonalDevelopement");
+    
+    if(fiction.checked){
+        bookType = fiction.value;
+    }
+    else if(programming.checked){
+        bookType = programming.value;
+    }
+    else if(personal.checked){
+        bookType = personal.value;
+    }
+// BookDetails Object
+    let book = new bookDetails(bookName,bookAuthor,bookType);
+    
+    let bookData = ""
+    bookData = bookData || [];
+    let nameOfBooks = bookData.concat(bookName)
+    // let nameOfBooks = bookData
+    // nameOfBooks.push(book.bookName);
+    localStore.setItem("books",JSON.stringify(nameOfBooks))
+    console.log(book);
+
+    let display = new Display()
+    display.add(book);
+    display.clear();
+    }
+</script>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<title>
+    list item
+</title>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+#menu
+{
+    width: auto;
+    height: 90px;
+    background-color: #800080;
+    text-align: center;
+
+}
+#menu ul
+{
+   display: inline-flex;
+    list-style: none;
+    padding-bottom: 10px;
+}
+#menu ul li
+{
+  padding-top:20px ;
+  padding-left: 70px;
+  font-size:x-large;
+  font-family: sans-serif;
+}
+#menu a:link ,a:visited
+{
+text-decoration: none;
+color: beige;
+padding: 15px 20px;
+}
+#menu a:active,a:hover
+{
+  background-color:#4B0150;
+}
+.material-icons
+{
+ float:none;
+ padding-top: 5px;
+ font-size:large;
+}
+#sub
+{
+    display:none;
+    background-color: #800080;
+    width:180px;
+    padding-right: 120px;
+
+}
+#menu ul li:hover #sub
+{
+    display: block;
+    position:fixed;
+    float: left;
+}
+#menu ul li:hover #sub ul
+{
+    display: list-item; 
+}
+#menu ul li:hover #sub ul li
+{
+    background: transparent;
+    padding-left: 50px;
+}
+#menu ul li:hover #sub ul li:last-child
+{
+    border-bottom: none;
+}
+</style>
+<body>
+    <div class="menu" id="menu">
+    <ul>
+        <li><a href="#"><i class="material-icons">home
+        </i>Home</a>
+        <div class="sub" id="sub">
+            <ul>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a href="#">  <i class="material-icons">menu
+        </i>Menu</a>
+        <div class="sub" id="sub">
+            <ul>
+                <li><a href="#">Register</a>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a href="#">  <i class="material-icons">arrow_drop_down
+        </i>About-Us</a></li>
+        <li><a href="#"><i class="material-icons">arrow_drop_down</i>Queries</a></li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+​<!DOCTYPE html>
+<html>
+<body>
+  <title>survey form</title>
+  <style>
+    h2 {text-align: center;}
+    #main
+    {
+        float:left;
+        margin-left: 250px;
+        margin-right: 250px;
+        
+        border:20px solid #16efce;
+        margin-bottom:50px;
+        padding:40px 120px 120px 40px;
+        background-color: rgb(33, 107, 167);
+    }
+    </style>
+   <div id="main">
+        <form action="#" method="post" enctype="text/plain">
+<h2>Survey Form</h2>
+<p><strong>Kindly Give the appropraite details </strong></p>
+<form>
+   <p><label for="fname">First name</label>
+    <input type="text" id="fname" name="fname" required ></p>
+    <p><label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname"></p>
+   <p> <label for="age">Age</label>
+    <input type="number" id="age"></p>
+    <p><label for="dob">Date of birth</label>
+    <input type="date" id="dob" name="dob"></p>
+    <p><label for="phone">Mobile number:</label>
+  <input type="tel" id="phone" name="phone" required></p>
+    <p><label for="mail">E-mail</label>
+    <input type="email" id="mail" name="mail"></p>
+   <p> <label for="pword">Password</label>
+    <input type="password" id="pword" name="pword" required></p>
+   <p><label for="edu">Educational Qualification</label>
+    <input type="text" id="edu" name="edu"></p>
+   <p><label for="gender">Gender</label>
+    <input type="radio" id="male" name="gender">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" >
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender">
+  <label for="other">Other</label></p>
+ <p> <label for="interest">Interest</label> 
+  <input type="checkbox" id="programming" name="interest">
+  <label for="programming"> Programming</label>
+  <input type="checkbox" id="testing" name="interest">
+  <label for="testing">testing</label>
+  <input type="checkbox" id="development" name="interest">
+  <label for="development">Development</label></p>
+ <p> <label for="country">Country</label>
+  <select id="country" name="country">
+    <option value="india">India</option>
+    <option value="scotland">Scotland</option>
+    <option value="finland">Finland</option>
+    <option value="america">America</option></p>
+  </select>
+ <P> <label for="state">State</label>
+  <select id="state" name="state">
+    <option value="andhra">Andhra</option>
+    <option value="sikkim">Sikkim</option>
+    <option value="haryana">Haryana</option>
+    <option value="tamilnadu">Tamilnadu</option></p>
+  </select>
+  <p><label for="yourself">More about you in less than 100 words</label></p>
+  <textarea id="yourself" id="yourself" name="yourself" rows="4" cols="50">
+  </textarea>
+<p><input type="submit" value="submit">
+<input type="reset"></p>
+</div>
+  </form>
+  </body>
+  </html>

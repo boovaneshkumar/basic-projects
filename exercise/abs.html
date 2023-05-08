@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.relative {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 3px solid #73AD21;
+} 
+
+.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 10px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">
+    <img src="download.jpg">
+    <embed type="video/webm" src="video.mp4.mp4" width="400" height="300">
+  </div>
+</div>
+
+</body>
+</html>
