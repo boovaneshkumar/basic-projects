@@ -1,0 +1,43 @@
+
+        #heder
+        {
+            width: auto;
+            height: 120px;
+            background-color: #444444;
+        }
+        #imag
+        {
+            float: left;
+            padding-left: 10px;
+            padding-top: 8px;
+        }
+        #imag img
+        {
+            height: 90px;
+            width: 250px;
+        }
+        #for
+        {
+            float: right;
+            padding-top: 50px;
+            word-spacing: 10px;
+            padding-right: 20px;
+        }
+        a:link, a:visited 
+        {
+          background-color: #f44336;
+          color: white;
+          text-align: right;
+          padding: 15px 13px;
+          text-decoration: none;
+        }
+        a:hover, a:active
+         {
+            background-color: #8B0000;
+         }
+         #let
+         {
+             float: left;
+             padding-right: 1px;
+             padding-top: 20px;
+         }

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<style>
+    #body
+    {
+        width:auto;
+        height:100px;
+        background-color:grey ;
+    }
+    #imag
+    {
+        position: absolute;
+        margin-left: 10px;
+        
+    }
+    #imag img
+    {
+        padding-top: 2px;
+        width:130px;
+        height:80px;
+        z-index: -2;
+    }
+    #for
+    {
+        width: 700px;
+        height:50px;
+        margin-left: 250px;
+        margin-right: 150px;
+        margin-top: 0px;
+        position: absolute;
+        padding-top:30px;
+        text-align: center;
+        font-size:x-large;
+        word-spacing: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #for a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    #for a:hover
+    {
+        color:red;
+    }
+    #but
+    {
+        width:300px;
+        height: 60px;
+        position:absolute;
+        margin-left:1000px;
+        margin-top: 35px;
+        padding-top: 8px;
+        margin-right: 50px;
+        word-spacing: 20px;
+    }
+    #but a
+    {
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:black;
+        font-size: larger;
+        padding-left: 10px;
+        background-color:red;
+        padding: 10px 10px;
+        border:1px;
+        border-radius: 20px;
+    }
+    #but a:hover
+    {
+        border: 1px solid red;
+        text-decoration:wavy;
+        color:whitesmoke ;
+        background-color:darkred;
+    }
+    #dropdown
+    {
+        display:none;
+        position: absolute;
+        min-width: 160px;
+    }
+   #dropdown a 
+   {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 0px;
+   }
+   #but:hover #dropdown
+   {
+    display: block;
+   }
+   #dropdown:hover a
+   {
+    background-color: #D2042D;
+   }
+   #box
+   {
+        display:none;
+        position: absolute;
+        min-width: 160px;
+   }
+   #box a 
+   {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 0px;
+   }
+   #run:hover #box
+   {
+    display:block;
+   }
+   #box:hover a
+   {
+    background-color: #D2042D;
+   }
+   #bod
+    {
+        margin-top: 2px;
+        width:auto;
+        height:500px;
+        background-image: url("read.jpg");
+    }
+    #tod
+    {
+        list-style: none;
+        position: fixed;
+        z-index: 100;
+
+    }
+    #tod a
+    {
+        color:white;
+        text-decoration: none;
+        background-color:black;
+        padding: 20px 20px;
+    }
+    #tod a:hover
+    {
+        border:1px solid black;
+    }
+    #tod li
+    {
+        line-height: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+</style>
+<header>
+    <div id="body">
+        <div id="imag">
+           <img src="food.png">
+        </div>
+        <div class="for" id="for">
+           <a href="eee">Hotel</a>
+           <a href="eee">Cuisine</a>
+           <a href="eee">Food-menu</a>
+           <a href="eee">Order-Status</a>
+           <a href="eee">Queries</a>
+        </div>
+           <div id="but">
+               <a href="">Get-Started</a>
+               <div id="dropdown">
+                <a href="#">Log-In</a>
+                <a href="#">Register</a>
+                <div id="run">
+                <a href="#">Partner<i class="fas fa-caret-right" style="padding:10px;"></i></a>
+                <div id="box">
+                    <a href="">Restaurant</a>
+                    <a href="">Cloud-Kitchen</a>
+                    <a href="">Delievery-Partner</a>
+                </div>
+                </div>
+              </div>
+           </div>
+    </div>
+</header>
+<body>
+    <div id="bod">
+        <span id="tod">
+        <li class=""><a href="" class="fa fa-facebook" style="font-size:25px;padding:10px;background-color: blue;"></a></li>
+        <li><a href="" class="fa fa-twitter" style="font-size:25px;padding:10px; background-color:#1DA1F2 ;"></a></li>
+        <li><a href="" class="fa fa-linkedin" style="font-size:25px;padding:10px; background-color: #0A66C2;"></a></li>
+        <li><a href="" class="fa fa-youtube" style="font-size:25px;padding:10px; background-color: #FF0000;"></a></li>
+        <li><a href="" class="fa fa-instagram" style="font-size:25px;padding:10px;background-color: #8a3ab9"></a></li>
+        
+    </div>
+    </div>
+   
+</body>
